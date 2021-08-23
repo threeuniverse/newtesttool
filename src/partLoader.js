@@ -34,7 +34,8 @@ export function loadnExecute(url, initializerName, callback) {
     }
 
     return new Promise((resolve, reject) => {
-        loadScript(url, {
+        loadScript({
+            url, 
             removeScript: initializerName?true:false, attrs: {
                 "data-scriptid": `${num}`
             }

@@ -9,7 +9,6 @@
     "build": "webpack -p",
     "push": "webpack-cli -p;git add build/universe.bundle.js; ./versioning.bash; git add build/version.js;  git commit -m 'updated build ';git push",
     "universe-partsetup": "tools/universesetup.js"
-
   },
   "keywords": [
     "threejs",
@@ -31,7 +30,7 @@
     "node-snackbar": "^0.1.10",
     "seedrandom": "^2.4.3",
     "set-location-hash": "^0.3.0",
-    "simple-load-script": "^1.0.2",
+    "simple-load-script": "^1.0.3",
     "three": "^0.99.0",
     "three-obj-mtl-loader": "Shakthi/three-obj-mtl-loader#master",
     "three-pointerlock": "0.0.2",
